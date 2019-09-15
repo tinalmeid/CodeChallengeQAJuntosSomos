@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>https://api.stackexchange.com/docs/info#filter=default&amp;site=stackoverflow</description>
+   <name>CT010 - API-VerificaInfo</name>
+   <tag>API</tag>
+   <comment></comment>
+   <testCaseGuid>098d8a75-32d9-442f-bd22-5ecae63af1ae</testCaseGuid>
+</TestCaseEntity>

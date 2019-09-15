@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>JuntePontos.feature</description>
+   <name>CT003 - Junte</name>
+   <tag>junte; pontos</tag>
+   <comment></comment>
+   <testCaseGuid>c6dd99b0-e49d-43f5-a9d2-695bbbeaa587</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CT009 - QueroParticiparCNPJ</name>
+   <tag>CNPJ</tag>
+   <comment></comment>
+   <testCaseGuid>99c87065-5590-46e2-891a-399571432a79</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS01 - Home" time="107" tests="7" failures="1" errors="0">
+   <testsuite name="TS01 - Home" tests="7" failures="1" errors="0" time="107" timestamp="2019-09-14 17:54:00" hostname="User - DESKTOP-GKLIBGV" id="Test Suites/Home/TS01 - Home">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Desafio_JuntosSomos\\CodeChallengeJuntosSomos\\Reports\\Home\\TS01 - Home\\20190914_175356"/>
+         <property name="logFiles" value="C:\\Desafio_JuntosSomos\\CodeChallengeJuntosSomos\\Reports\\Home\\TS01 - Home\\20190914_175356\\execution0.log"/>
+         <property name="attachments" value="C:\\Desafio_JuntosSomos\\CodeChallengeJuntosSomos\\Reports\\Home\\TS01 - Home\\20190914_175356\\1568494529922.png, C:\\Desafio_JuntosSomos\\CodeChallengeJuntosSomos\\Reports\\Home\\TS01 - Home\\20190914_175356\\1568494530409.png"/>
+         <property name="hostName" value="User - DESKTOP-GKLIBGV"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 77.0.3865.75"/>
+         <property name="hostAddress" value="192.168.0.5"/>
+         <property name="sessionId" value="633e324c263fc495e4a0e52291b67b25"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/CT001 - Home" classname="Test Cases/CT001 - Home" status="PASSED">
+         <system-out><![CDATA[2019-09-14 17:54:01 - [TEST_CASE][PASSED] - Test Cases/CT001 - Home: Test Cases/CT001 - Home
+
+2019-09-14 17:54:02 - [TEST_STEP][PASSED] - home.AcessarHome.refreshBrowser(): Acessou a pagina com sucesso
+
+2019-09-14 17:54:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-09-14 17:54:03 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-09-14 17:54:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-09-14 17:54:13 - [MESSAGE][PASSED] - Navigate to 'https://www.juntossomosmais.com.br/' successfully
+
+2019-09-14 17:54:15 - [MESSAGE][PASSED] - Current window maximized
+
+2019-09-14 17:54:15 - [MESSAGE][PASSED] - Acessou a pagina com sucesso
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - home.AcessarHome.isElementPresent(): Passou
+
+2019-09-14 17:54:15 - [MESSAGE][PASSED] - Object 'Object Repository/PageHome/imgLogoHome' is present
+
+2019-09-14 17:54:15 - [MESSAGE][PASSED] - Object 'Object Repository/PageHome/menuSobre' is present
+
+2019-09-14 17:54:15 - [MESSAGE][PASSED] - Object 'Object Repository/PageHome/menuJuntePontos' is present
+
+2019-09-14 17:54:15 - [MESSAGE][PASSED] - Object 'Object Repository/PageHome/menuGanhePremios' is present
+
+2019-09-14 17:54:15 - [MESSAGE][PASSED] - Object 'Object Repository/PageHome/menuLojaVirtual' is present
+
+2019-09-14 17:54:15 - [MESSAGE][PASSED] - Object 'Object Repository/PageHome/btnEntrar' is present
+
+2019-09-14 17:54:15 - [MESSAGE][PASSED] - Object 'Object Repository/PageHome/btnQueroParticipar' is present
+
+2019-09-14 17:54:15 - [MESSAGE][PASSED] - Passou
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - menuSobre = "PageHome/menuSobre": null
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - textMenuSobre = "Sobre": null
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - labelSobre = getText(findTestObject(menuSobre)): Text of object 'Object Repository/PageHome/menuSobre' is: 'Sobre'
+
+2019-09-14 17:54:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/PageHome/menuSobre' is: 'Sobre'
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - println(labelSobre): null
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - validaLabelSobre = verifyEqual(labelSobre, textMenuSobre): Actual object 'Sobre' and expected object 'Sobre' are equal
+
+2019-09-14 17:54:15 - [MESSAGE][PASSED] - Actual object 'Sobre' and expected object 'Sobre' are equal
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - if (validaLabelSobre == true): null
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - println("Passou"): null
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - menuJunte = "PageHome/menuJuntePontos": null
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - textMenuJunte = "Junte pontos": null
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - labelJunte = getText(findTestObject(menuJunte)): Text of object 'Object Repository/PageHome/menuJuntePontos' is: 'Junte pontos'
+
+2019-09-14 17:54:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/PageHome/menuJuntePontos' is: 'Junte pontos'
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - println(labelJunte): null
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - validaLabelJunte = verifyEqual(labelJunte, textMenuJunte): Actual object 'Junte pontos' and expected object 'Junte pontos' are equal
+
+2019-09-14 17:54:15 - [MESSAGE][PASSED] - Actual object 'Junte pontos' and expected object 'Junte pontos' are equal
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - if (validaLabelJunte == true): null
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - println("Passou"): null
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - menuGanhe = "PageHome/menuGanhePremios": null
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - textMenuGanhe = "Ganhe prêmios": null
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - labelGanhe = getText(findTestObject(menuGanhe)): Text of object 'Object Repository/PageHome/menuGanhePremios' is: 'Ganhe prêmios'
+
+2019-09-14 17:54:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/PageHome/menuGanhePremios' is: 'Ganhe prêmios'
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - println(labelGanhe): null
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - validaLabelGanhe = verifyEqual(labelGanhe, textMenuGanhe): Actual object 'Ganhe prêmios' and expected object 'Ganhe prêmios' are equal
+
+2019-09-14 17:54:15 - [MESSAGE][PASSED] - Actual object 'Ganhe prêmios' and expected object 'Ganhe prêmios' are equal
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - if (validaLabelGanhe == true): null
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - println("Passou"): null
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - lojaVirtual = "PageHome/menuLojaVirtual": null
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - textMenuLoja = "Loja virtual": null
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - labelLoja = getText(findTestObject(lojaVirtual)): Text of object 'Object Repository/PageHome/menuLojaVirtual' is: 'Loja virtual'
+
+2019-09-14 17:54:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/PageHome/menuLojaVirtual' is: 'Loja virtual'
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - println(labelLoja): null
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - validaLabelLoja = verifyEqual(labelLoja, textMenuLoja): Actual object 'Loja virtual' and expected object 'Loja virtual' are equal
+
+2019-09-14 17:54:15 - [MESSAGE][PASSED] - Actual object 'Loja virtual' and expected object 'Loja virtual' are equal
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - if (validaLabelLoja == true): null
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - println("Passou"): null
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - btnEntrar = "PageHome/btnEntrar": null
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - hintBtnEntrar = "Entrar": null
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - txtBtnEntrar = getText(findTestObject(btnEntrar)): Text of object 'Object Repository/PageHome/btnEntrar' is: 'Entrar'
+
+2019-09-14 17:54:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/PageHome/btnEntrar' is: 'Entrar'
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - println(txtBtnEntrar): null
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - validaBtnEntrar = verifyEqual(txtBtnEntrar, hintBtnEntrar): Actual object 'Entrar' and expected object 'Entrar' are equal
+
+2019-09-14 17:54:15 - [MESSAGE][PASSED] - Actual object 'Entrar' and expected object 'Entrar' are equal
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - if (validaBtnEntrar == true): null
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - println("Passou"): null
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - btnParticipar = "PageHome/btnQueroParticipar": null
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - hintBtnParticipar = "Quero participar": null
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - textBtnParticipar = getText(findTestObject(btnParticipar)): Text of object 'Object Repository/PageHome/btnQueroParticipar' is: 'Quero participar'
+
+2019-09-14 17:54:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/PageHome/btnQueroParticipar' is: 'Quero participar'
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - println(textBtnParticipar): null
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - validaBtnParticipar = verifyEqual(textBtnParticipar, hintBtnParticipar): Actual object 'Quero participar' and expected object 'Quero participar' are equal
+
+2019-09-14 17:54:15 - [MESSAGE][PASSED] - Actual object 'Quero participar' and expected object 'Quero participar' are equal
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - if (validaBtnParticipar == true): null
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - println("Passou"): null
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-09-14 17:54:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-09-14 17:54:16 - [MESSAGE][PASSED] - Browser is closed
+
+2019-09-14 17:54:16 - [TEST_STEP][PASSED] - println("End Test Case"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CT002 - Sobre" classname="Test Cases/CT002 - Sobre" status="PASSED">
+         <system-out><![CDATA[2019-09-14 17:54:16 - [TEST_CASE][PASSED] - Test Cases/CT002 - Sobre: Test Cases/CT002 - Sobre
+
+2019-09-14 17:54:17 - [TEST_STEP][PASSED] - home.AcessarHome.refreshBrowser(): Acessou a pagina com sucesso
+
+2019-09-14 17:54:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-09-14 17:54:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-09-14 17:54:23 - [MESSAGE][PASSED] - Navigate to 'https://www.juntossomosmais.com.br/' successfully
+
+2019-09-14 17:54:24 - [MESSAGE][PASSED] - Current window maximized
+
+2019-09-14 17:54:24 - [MESSAGE][PASSED] - Acessou a pagina com sucesso
+
+2019-09-14 17:54:24 - [TEST_STEP][PASSED] - click(findTestObject("PageHome/menuSobre")): Object: 'Object Repository/PageHome/menuSobre' is clicked on
+
+2019-09-14 17:54:24 - [MESSAGE][PASSED] - Object: 'Object Repository/PageHome/menuSobre' is clicked on
+
+2019-09-14 17:54:24 - [TEST_STEP][PASSED] - delay(timeOutSmall): Delayed 1 second(s)
+
+2019-09-14 17:54:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-09-14 17:54:26 - [TEST_STEP][PASSED] - descricaoSobre = "PageSobre/frameDescricaoSobre": null
+
+2019-09-14 17:54:26 - [TEST_STEP][PASSED] - textDescricaoSobre = "O Juntos Somos + nasceu para fortalecer o varejo da construção e transformar a vida dos profissionais que constroem sonhos. Somos o maior programa de fidelidade do varejo de material de construção levando qualificação e benefícios para lojistas, vendedores e profissionais da obra.": null
+
+2019-09-14 17:54:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(descricaoSobre), timeOutSmall): Object 'Object Repository/PageSobre/frameDescricaoSobre' is present
+
+2019-09-14 17:54:26 - [MESSAGE][PASSED] - Object 'Object Repository/PageSobre/frameDescricaoSobre' is present
+
+2019-09-14 17:54:26 - [TEST_STEP][PASSED] - labelDescricaoSobre = getText(findTestObject(descricaoSobre)): Text of object 'Object Repository/PageSobre/frameDescricaoSobre' is: 'O Juntos Somos + nasceu para fortalecer o varejo da construção e transformar a vida dos profissionais que constroem sonhos. Somos o maior programa de fidelidade do varejo de material de construção levando qualificação e benefícios para lojistas, vendedores e profissionais da obra.'
+
+2019-09-14 17:54:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/PageSobre/frameDescricaoSobre' is: 'O Juntos Somos + nasceu para fortalecer o varejo da construção e transformar a vida dos profissionais que constroem sonhos. Somos o maior programa de fidelidade do varejo de material de construção levando qualificação e benefícios para lojistas, vendedores e profissionais da obra.'
+
+2019-09-14 17:54:26 - [TEST_STEP][PASSED] - println(labelDescricaoSobre): null
+
+2019-09-14 17:54:26 - [TEST_STEP][PASSED] - labelDescricao = getText(findTestObject(descricaoSobre)): Text of object 'Object Repository/PageSobre/frameDescricaoSobre' is: 'O Juntos Somos + nasceu para fortalecer o varejo da construção e transformar a vida dos profissionais que constroem sonhos. Somos o maior programa de fidelidade do varejo de material de construção levando qualificação e benefícios para lojistas, vendedores e profissionais da obra.'
+
+2019-09-14 17:54:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/PageSobre/frameDescricaoSobre' is: 'O Juntos Somos + nasceu para fortalecer o varejo da construção e transformar a vida dos profissionais que constroem sonhos. Somos o maior programa de fidelidade do varejo de material de construção levando qualificação e benefícios para lojistas, vendedores e profissionais da obra.'
+
+2019-09-14 17:54:26 - [TEST_STEP][PASSED] - println(labelDescricao): null
+
+2019-09-14 17:54:26 - [TEST_STEP][PASSED] - validaLabelDescricao = verifyEqual(labelDescricao, textDescricaoSobre): Actual object 'O Juntos Somos + nasceu para fortalecer o varejo da construção e transformar a vida dos profissionais que constroem sonhos. Somos o maior programa de fidelidade do varejo de material de construção levando qualificação e benefícios para lojistas, vendedores e profissionais da obra.' and expected object 'O Juntos Somos + nasceu para fortalecer o varejo da construção e transformar a vida dos profissionais que constroem sonhos. Somos o maior programa de fidelidade do varejo de material de construção levando qualificação e benefícios para lojistas, vendedores e profissionais da obra.' are equal
+
+2019-09-14 17:54:26 - [MESSAGE][PASSED] - Actual object 'O Juntos Somos + nasceu para fortalecer o varejo da construção e transformar a vida dos profissionais que constroem sonhos. Somos o maior programa de fidelidade do varejo de material de construção levando qualificação e benefícios para lojistas, vendedores e profissionais da obra.' and expected object 'O Juntos Somos + nasceu para fortalecer o varejo da construção e transformar a vida dos profissionais que constroem sonhos. Somos o maior programa de fidelidade do varejo de material de construção levando qualificação e benefícios para lojistas, vendedores e profissionais da obra.' are equal
+
+2019-09-14 17:54:26 - [TEST_STEP][PASSED] - if (validaLabelDescricao == true): null
+
+2019-09-14 17:54:26 - [TEST_STEP][PASSED] - println("Passou"): null
+
+2019-09-14 17:54:26 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-09-14 17:54:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-09-14 17:54:27 - [MESSAGE][PASSED] - Browser is closed
+
+2019-09-14 17:54:27 - [TEST_STEP][PASSED] - println("End Test Case"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CT009 - QueroParticiparCNPJ" classname="Test Cases/CT009 - QueroParticiparCNPJ" status="PASSED">
+         <system-out><![CDATA[2019-09-14 17:54:27 - [TEST_CASE][PASSED] - Test Cases/CT009 - QueroParticiparCNPJ: Test Cases/CT009 - QueroParticiparCNPJ
+
+2019-09-14 17:54:27 - [TEST_STEP][PASSED] - home.AcessarHome.refreshBrowser(): Acessou a pagina com sucesso
+
+2019-09-14 17:54:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-09-14 17:54:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-09-14 17:54:34 - [MESSAGE][PASSED] - Navigate to 'https://www.juntossomosmais.com.br/' successfully
+
+2019-09-14 17:54:35 - [MESSAGE][PASSED] - Current window maximized
+
+2019-09-14 17:54:35 - [MESSAGE][PASSED] - Acessou a pagina com sucesso
+
+2019-09-14 17:54:35 - [TEST_STEP][PASSED] - click(findTestObject("PageHome/btnQueroParticipar")): Object: 'Object Repository/PageHome/btnQueroParticipar' is clicked on
+
+2019-09-14 17:54:35 - [MESSAGE][PASSED] - Object: 'Object Repository/PageHome/btnQueroParticipar' is clicked on
+
+2019-09-14 17:54:35 - [TEST_STEP][PASSED] - delay(timeOutSmall): Delayed 1 second(s)
+
+2019-09-14 17:54:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-09-14 17:54:36 - [TEST_STEP][PASSED] - click(findTestObject("QueroParticipar/frameTrabalhoLoja")): Object: 'Object Repository/QueroParticipar/frameTrabalhoLoja' is clicked on
+
+2019-09-14 17:54:36 - [MESSAGE][PASSED] - Object: 'Object Repository/QueroParticipar/frameTrabalhoLoja' is clicked on
+
+2019-09-14 17:54:36 - [TEST_STEP][PASSED] - click(findTestObject("QueroParticipar/listBoxSelecioneProfissao")): Object: 'Object Repository/QueroParticipar/listBoxSelecioneProfissao' is clicked on
+
+2019-09-14 17:54:37 - [MESSAGE][PASSED] - Object: 'Object Repository/QueroParticipar/listBoxSelecioneProfissao' is clicked on
+
+2019-09-14 17:54:37 - [TEST_STEP][PASSED] - click(findTestObject("QueroParticipar/selecaoUsuarioGerente")): Object: 'Object Repository/QueroParticipar/selecaoUsuarioGerente' is clicked on
+
+2019-09-14 17:54:38 - [MESSAGE][PASSED] - Object: 'Object Repository/QueroParticipar/selecaoUsuarioGerente' is clicked on
+
+2019-09-14 17:54:38 - [TEST_STEP][PASSED] - setText(findTestObject("QueroParticipar/campoCNPJGerente"), CNPJLoja): Text '18.318.585/0001-58' is set on object 'Object Repository/QueroParticipar/campoCNPJGerente'
+
+2019-09-14 17:54:39 - [MESSAGE][PASSED] - Text '18.318.585/0001-58' is set on object 'Object Repository/QueroParticipar/campoCNPJGerente'
+
+2019-09-14 17:54:39 - [TEST_STEP][PASSED] - setText(findTestObject("QueroParticipar/campoCPFGerente"), CPFUsuario): Text '297.996.050-08' is set on object 'Object Repository/QueroParticipar/campoCPFGerente'
+
+2019-09-14 17:54:39 - [MESSAGE][PASSED] - Text '297.996.050-08' is set on object 'Object Repository/QueroParticipar/campoCPFGerente'
+
+2019-09-14 17:54:39 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-09-14 17:54:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-09-14 17:54:40 - [MESSAGE][PASSED] - Browser is closed
+
+2019-09-14 17:54:40 - [TEST_STEP][PASSED] - println("End Test Case"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CT008 - QueroParticiparCPF" classname="Test Cases/CT008 - QueroParticiparCPF" status="PASSED">
+         <system-out><![CDATA[2019-09-14 17:54:40 - [TEST_CASE][PASSED] - Test Cases/CT008 - QueroParticiparCPF: Test Cases/CT008 - QueroParticiparCPF
+
+2019-09-14 17:54:41 - [TEST_STEP][PASSED] - home.AcessarHome.refreshBrowser(): Acessou a pagina com sucesso
+
+2019-09-14 17:54:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-09-14 17:54:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-09-14 17:54:48 - [MESSAGE][PASSED] - Navigate to 'https://www.juntossomosmais.com.br/' successfully
+
+2019-09-14 17:54:49 - [MESSAGE][PASSED] - Current window maximized
+
+2019-09-14 17:54:49 - [MESSAGE][PASSED] - Acessou a pagina com sucesso
+
+2019-09-14 17:54:49 - [TEST_STEP][PASSED] - click(findTestObject("PageHome/btnQueroParticipar")): Object: 'Object Repository/PageHome/btnQueroParticipar' is clicked on
+
+2019-09-14 17:54:49 - [MESSAGE][PASSED] - Object: 'Object Repository/PageHome/btnQueroParticipar' is clicked on
+
+2019-09-14 17:54:49 - [TEST_STEP][PASSED] - delay(timeOutSmall): Delayed 1 second(s)
+
+2019-09-14 17:54:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-09-14 17:54:50 - [TEST_STEP][PASSED] - click(findTestObject("QueroParticipar/frameTrabalhoObras")): Object: 'Object Repository/QueroParticipar/frameTrabalhoObras' is clicked on
+
+2019-09-14 17:54:51 - [MESSAGE][PASSED] - Object: 'Object Repository/QueroParticipar/frameTrabalhoObras' is clicked on
+
+2019-09-14 17:54:51 - [TEST_STEP][PASSED] - click(findTestObject("QueroParticipar/campoSelecioneProfissao")): Object: 'Object Repository/QueroParticipar/campoSelecioneProfissao' is clicked on
+
+2019-09-14 17:54:51 - [MESSAGE][PASSED] - Object: 'Object Repository/QueroParticipar/campoSelecioneProfissao' is clicked on
+
+2019-09-14 17:54:51 - [TEST_STEP][PASSED] - click(findTestObject("QueroParticipar/selecaoUsuarioArquiteto")): Object: 'Object Repository/QueroParticipar/selecaoUsuarioArquiteto' is clicked on
+
+2019-09-14 17:54:52 - [MESSAGE][PASSED] - Object: 'Object Repository/QueroParticipar/selecaoUsuarioArquiteto' is clicked on
+
+2019-09-14 17:54:52 - [TEST_STEP][PASSED] - delay(timeOutSmall): Delayed 1 second(s)
+
+2019-09-14 17:54:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-09-14 17:54:53 - [TEST_STEP][PASSED] - setText(findTestObject("QueroParticipar/campoCPFArquiteto"), CPFUsuario): Text '297.996.050-08' is set on object 'Object Repository/QueroParticipar/campoCPFArquiteto'
+
+2019-09-14 17:54:54 - [MESSAGE][PASSED] - Text '297.996.050-08' is set on object 'Object Repository/QueroParticipar/campoCPFArquiteto'
+
+2019-09-14 17:54:54 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-09-14 17:54:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-09-14 17:54:55 - [MESSAGE][PASSED] - Browser is closed
+
+2019-09-14 17:54:55 - [TEST_STEP][PASSED] - println("End Test Case"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CT007 - QueroParticipar" classname="Test Cases/CT007 - QueroParticipar" status="PASSED">
+         <system-out><![CDATA[2019-09-14 17:54:55 - [TEST_CASE][PASSED] - Test Cases/CT007 - QueroParticipar: Test Cases/CT007 - QueroParticipar
+
+2019-09-14 17:54:55 - [TEST_STEP][PASSED] - home.AcessarHome.refreshBrowser(): Acessou a pagina com sucesso
+
+2019-09-14 17:54:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-09-14 17:54:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-09-14 17:55:02 - [MESSAGE][PASSED] - Navigate to 'https://www.juntossomosmais.com.br/' successfully
+
+2019-09-14 17:55:04 - [MESSAGE][PASSED] - Current window maximized
+
+2019-09-14 17:55:04 - [MESSAGE][PASSED] - Acessou a pagina com sucesso
+
+2019-09-14 17:55:04 - [TEST_STEP][PASSED] - click(findTestObject("PageHome/btnQueroParticipar")): Object: 'Object Repository/PageHome/btnQueroParticipar' is clicked on
+
+2019-09-14 17:55:04 - [MESSAGE][PASSED] - Object: 'Object Repository/PageHome/btnQueroParticipar' is clicked on
+
+2019-09-14 17:55:04 - [TEST_STEP][PASSED] - delay(timeOutSmall): Delayed 1 second(s)
+
+2019-09-14 17:55:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-09-14 17:55:05 - [TEST_STEP][PASSED] - titleCardParticipar = "Participar/frameQualProfissao": null
+
+2019-09-14 17:55:05 - [TEST_STEP][PASSED] - hintTitleParticipar = "Qual é a sua profissão?": null
+
+2019-09-14 17:55:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(titleCardParticipar), timeOutSmall): Object 'Object Repository/Participar/frameQualProfissao' is present
+
+2019-09-14 17:55:05 - [MESSAGE][PASSED] - Object 'Object Repository/Participar/frameQualProfissao' is present
+
+2019-09-14 17:55:05 - [TEST_STEP][PASSED] - radioTrabalhaLoja = "Participar/labelTrabalhoLoja": null
+
+2019-09-14 17:55:05 - [TEST_STEP][PASSED] - hintTrabalhoLoja = "Trabalho em loja de materiais de construção": null
+
+2019-09-14 17:55:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(radioTrabalhaLoja), timeOutSmall): Object 'Object Repository/Participar/labelTrabalhoLoja' is present
+
+2019-09-14 17:55:05 - [MESSAGE][PASSED] - Object 'Object Repository/Participar/labelTrabalhoLoja' is present
+
+2019-09-14 17:55:05 - [TEST_STEP][PASSED] - textRadioTrabalhoLoja = getText(findTestObject(radioTrabalhaLoja)): Text of object 'Object Repository/Participar/labelTrabalhoLoja' is: 'Trabalho em loja de materiais de construção'
+
+2019-09-14 17:55:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Participar/labelTrabalhoLoja' is: 'Trabalho em loja de materiais de construção'
+
+2019-09-14 17:55:05 - [TEST_STEP][PASSED] - println(textRadioTrabalhoLoja): null
+
+2019-09-14 17:55:05 - [TEST_STEP][PASSED] - validaRadioTrabalhoLoja = verifyEqual(textRadioTrabalhoLoja, hintTrabalhoLoja): Actual object 'Trabalho em loja de materiais de construção' and expected object 'Trabalho em loja de materiais de construção' are equal
+
+2019-09-14 17:55:05 - [MESSAGE][PASSED] - Actual object 'Trabalho em loja de materiais de construção' and expected object 'Trabalho em loja de materiais de construção' are equal
+
+2019-09-14 17:55:05 - [TEST_STEP][PASSED] - if (validaRadioTrabalhoLoja == true): null
+
+2019-09-14 17:55:05 - [TEST_STEP][PASSED] - println("Passou"): null
+
+2019-09-14 17:55:05 - [TEST_STEP][PASSED] - radioTrabalhaObras = "Participar/labelTrabalhoObras": null
+
+2019-09-14 17:55:05 - [TEST_STEP][PASSED] - hintTrabalhoObras = "Trabalho em obras ou reformas": null
+
+2019-09-14 17:55:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(radioTrabalhaObras), timeOutSmall): Object 'Object Repository/Participar/labelTrabalhoObras' is present
+
+2019-09-14 17:55:05 - [MESSAGE][PASSED] - Object 'Object Repository/Participar/labelTrabalhoObras' is present
+
+2019-09-14 17:55:05 - [TEST_STEP][PASSED] - textRadioTrabalhoObras = getText(findTestObject(radioTrabalhaObras)): Text of object 'Object Repository/Participar/labelTrabalhoObras' is: 'Trabalho em obras ou reformas'
+
+2019-09-14 17:55:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Participar/labelTrabalhoObras' is: 'Trabalho em obras ou reformas'
+
+2019-09-14 17:55:05 - [TEST_STEP][PASSED] - println(textRadioTrabalhoObras): null
+
+2019-09-14 17:55:05 - [TEST_STEP][PASSED] - validaRadioTrabalhoObras = verifyEqual(textRadioTrabalhoObras, hintTrabalhoObras): Actual object 'Trabalho em obras ou reformas' and expected object 'Trabalho em obras ou reformas' are equal
+
+2019-09-14 17:55:05 - [MESSAGE][PASSED] - Actual object 'Trabalho em obras ou reformas' and expected object 'Trabalho em obras ou reformas' are equal
+
+2019-09-14 17:55:05 - [TEST_STEP][PASSED] - if (validaRadioTrabalhoObras == true): null
+
+2019-09-14 17:55:05 - [TEST_STEP][PASSED] - println("Passou"): null
+
+2019-09-14 17:55:05 - [TEST_STEP][PASSED] - btnParticipar = "Participar/btnParticipar": null
+
+2019-09-14 17:55:05 - [TEST_STEP][PASSED] - hintBtnParticipar = "Participar agora": null
+
+2019-09-14 17:55:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(btnParticipar), timeOutSmall): Object 'Object Repository/Participar/btnParticipar' is present
+
+2019-09-14 17:55:05 - [MESSAGE][PASSED] - Object 'Object Repository/Participar/btnParticipar' is present
+
+2019-09-14 17:55:05 - [TEST_STEP][PASSED] - textBtnParticipar = getText(findTestObject(btnParticipar)): Text of object 'Object Repository/Participar/btnParticipar' is: 'Participar agora'
+
+2019-09-14 17:55:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Participar/btnParticipar' is: 'Participar agora'
+
+2019-09-14 17:55:05 - [TEST_STEP][PASSED] - println(textBtnParticipar): null
+
+2019-09-14 17:55:05 - [TEST_STEP][PASSED] - validaBtnParticipar = verifyEqual(textBtnParticipar, hintBtnParticipar): Actual object 'Participar agora' and expected object 'Participar agora' are equal
+
+2019-09-14 17:55:05 - [MESSAGE][PASSED] - Actual object 'Participar agora' and expected object 'Participar agora' are equal
+
+2019-09-14 17:55:05 - [TEST_STEP][PASSED] - if (validaBtnParticipar == true): null
+
+2019-09-14 17:55:05 - [TEST_STEP][PASSED] - println("Passou"): null
+
+2019-09-14 17:55:05 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-09-14 17:55:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-09-14 17:55:06 - [MESSAGE][PASSED] - Browser is closed
+
+2019-09-14 17:55:06 - [TEST_STEP][PASSED] - println("End Test Case"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CT006 - Entrar" classname="Test Cases/CT006 - Entrar" status="PASSED">
+         <system-out><![CDATA[2019-09-14 17:55:06 - [TEST_CASE][PASSED] - Test Cases/CT006 - Entrar: Test Cases/CT006 - Entrar
+
+2019-09-14 17:55:06 - [TEST_STEP][PASSED] - home.AcessarHome.refreshBrowser(): Acessou a pagina com sucesso
+
+2019-09-14 17:55:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-09-14 17:55:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-09-14 17:55:13 - [MESSAGE][PASSED] - Navigate to 'https://www.juntossomosmais.com.br/' successfully
+
+2019-09-14 17:55:14 - [MESSAGE][PASSED] - Current window maximized
+
+2019-09-14 17:55:14 - [MESSAGE][PASSED] - Acessou a pagina com sucesso
+
+2019-09-14 17:55:14 - [TEST_STEP][PASSED] - click(findTestObject("PageHome/btnEntrar")): Object: 'Object Repository/PageHome/btnEntrar' is clicked on
+
+2019-09-14 17:55:14 - [MESSAGE][PASSED] - Object: 'Object Repository/PageHome/btnEntrar' is clicked on
+
+2019-09-14 17:55:14 - [TEST_STEP][PASSED] - delay(timeOutSmall): Delayed 1 second(s)
+
+2019-09-14 17:55:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-09-14 17:55:15 - [TEST_STEP][PASSED] - titleCardLogin = "Entrar/frameAreaRestrita": null
+
+2019-09-14 17:55:15 - [TEST_STEP][PASSED] - hintTitleLogin = "Acesse aqui sua área restrita": null
+
+2019-09-14 17:55:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(titleCardLogin), timeOutSmall): Object 'Object Repository/Entrar/frameAreaRestrita' is present
+
+2019-09-14 17:55:15 - [MESSAGE][PASSED] - Object 'Object Repository/Entrar/frameAreaRestrita' is present
+
+2019-09-14 17:55:15 - [TEST_STEP][PASSED] - labelTitleCard = getText(findTestObject(titleCardLogin)): Text of object 'Object Repository/Entrar/frameAreaRestrita' is: 'Acesse aqui sua área restrita'
+
+2019-09-14 17:55:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/Entrar/frameAreaRestrita' is: 'Acesse aqui sua área restrita'
+
+2019-09-14 17:55:15 - [TEST_STEP][PASSED] - println(labelTitleCard): null
+
+2019-09-14 17:55:15 - [TEST_STEP][PASSED] - validaLabelTitle = verifyEqual(labelTitleCard, hintTitleLogin): Actual object 'Acesse aqui sua área restrita' and expected object 'Acesse aqui sua área restrita' are equal
+
+2019-09-14 17:55:15 - [MESSAGE][PASSED] - Actual object 'Acesse aqui sua área restrita' and expected object 'Acesse aqui sua área restrita' are equal
+
+2019-09-14 17:55:15 - [TEST_STEP][PASSED] - if (validaLabelTitle == true): null
+
+2019-09-14 17:55:15 - [TEST_STEP][PASSED] - println("Passou"): null
+
+2019-09-14 17:55:15 - [TEST_STEP][PASSED] - campoUsuario = "Entrar/campoCPF": null
+
+2019-09-14 17:55:15 - [TEST_STEP][PASSED] - labelUsuario = "Entrar/labelCPF": null
+
+2019-09-14 17:55:15 - [TEST_STEP][PASSED] - hintLabelUsuario = "CPF :": null
+
+2019-09-14 17:55:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(campoUsuario), timeOutSmall): Object 'Object Repository/Entrar/campoCPF' is present
+
+2019-09-14 17:55:15 - [MESSAGE][PASSED] - Object 'Object Repository/Entrar/campoCPF' is present
+
+2019-09-14 17:55:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(labelUsuario), timeOutSmall): Object 'Object Repository/Entrar/labelCPF' is present
+
+2019-09-14 17:55:15 - [MESSAGE][PASSED] - Object 'Object Repository/Entrar/labelCPF' is present
+
+2019-09-14 17:55:15 - [TEST_STEP][PASSED] - textLabelCPF = getText(findTestObject(labelUsuario)): Text of object 'Object Repository/Entrar/labelCPF' is: 'CPF :'
+
+2019-09-14 17:55:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/Entrar/labelCPF' is: 'CPF :'
+
+2019-09-14 17:55:15 - [TEST_STEP][PASSED] - println(textLabelCPF): null
+
+2019-09-14 17:55:15 - [TEST_STEP][PASSED] - validaTextLabelCPF = verifyEqual(textLabelCPF, hintLabelUsuario): Actual object 'CPF :' and expected object 'CPF :' are equal
+
+2019-09-14 17:55:15 - [MESSAGE][PASSED] - Actual object 'CPF :' and expected object 'CPF :' are equal
+
+2019-09-14 17:55:15 - [TEST_STEP][PASSED] - if (validaTextLabelCPF == true): null
+
+2019-09-14 17:55:15 - [TEST_STEP][PASSED] - println("Passou"): null
+
+2019-09-14 17:55:15 - [TEST_STEP][PASSED] - campoSenha = "Entrar/campoSenha": null
+
+2019-09-14 17:55:15 - [TEST_STEP][PASSED] - labelSenha = "Entrar/labelSenha": null
+
+2019-09-14 17:55:15 - [TEST_STEP][PASSED] - hintLabelSenha = "Senha:": null
+
+2019-09-14 17:55:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(campoSenha), timeOutSmall): Object 'Object Repository/Entrar/campoSenha' is present
+
+2019-09-14 17:55:15 - [MESSAGE][PASSED] - Object 'Object Repository/Entrar/campoSenha' is present
+
+2019-09-14 17:55:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(labelSenha), timeOutSmall): Object 'Object Repository/Entrar/labelSenha' is present
+
+2019-09-14 17:55:15 - [MESSAGE][PASSED] - Object 'Object Repository/Entrar/labelSenha' is present
+
+2019-09-14 17:55:15 - [TEST_STEP][PASSED] - textLabelSenha = getText(findTestObject(labelSenha)): Text of object 'Object Repository/Entrar/labelSenha' is: 'Senha:'
+
+2019-09-14 17:55:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/Entrar/labelSenha' is: 'Senha:'
+
+2019-09-14 17:55:15 - [TEST_STEP][PASSED] - println(textLabelSenha): null
+
+2019-09-14 17:55:15 - [TEST_STEP][PASSED] - validaTextLabelSenha = verifyEqual(textLabelSenha, hintLabelSenha): Actual object 'Senha:' and expected object 'Senha:' are equal
+
+2019-09-14 17:55:15 - [MESSAGE][PASSED] - Actual object 'Senha:' and expected object 'Senha:' are equal
+
+2019-09-14 17:55:15 - [TEST_STEP][PASSED] - if (validaTextLabelSenha == true): null
+
+2019-09-14 17:55:15 - [TEST_STEP][PASSED] - println("Passou"): null
+
+2019-09-14 17:55:15 - [TEST_STEP][PASSED] - btnEntrar = "Entrar/btnEntrar": null
+
+2019-09-14 17:55:15 - [TEST_STEP][PASSED] - hintEntrar = "Entrar": null
+
+2019-09-14 17:55:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(btnEntrar), timeOutSmall): Object 'Object Repository/Entrar/btnEntrar' is present
+
+2019-09-14 17:55:15 - [MESSAGE][PASSED] - Object 'Object Repository/Entrar/btnEntrar' is present
+
+2019-09-14 17:55:15 - [TEST_STEP][PASSED] - btnLabelEntrar = getText(findTestObject(btnEntrar)): Text of object 'Object Repository/Entrar/btnEntrar' is: 'Entrar'
+
+2019-09-14 17:55:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Entrar/btnEntrar' is: 'Entrar'
+
+2019-09-14 17:55:16 - [TEST_STEP][PASSED] - println(btnLabelEntrar): null
+
+2019-09-14 17:55:16 - [TEST_STEP][PASSED] - validaBtnLabelEntrar = verifyEqual(btnLabelEntrar, hintEntrar): Actual object 'Entrar' and expected object 'Entrar' are equal
+
+2019-09-14 17:55:16 - [MESSAGE][PASSED] - Actual object 'Entrar' and expected object 'Entrar' are equal
+
+2019-09-14 17:55:16 - [TEST_STEP][PASSED] - if (validaBtnLabelEntrar == true): null
+
+2019-09-14 17:55:16 - [TEST_STEP][PASSED] - println("Passou"): null
+
+2019-09-14 17:55:16 - [TEST_STEP][PASSED] - btnEsqueciSenha = "Entrar/btnEsqueciSenha": null
+
+2019-09-14 17:55:16 - [TEST_STEP][PASSED] - hintEsqueciSenha = "Não sei a senha": null
+
+2019-09-14 17:55:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(btnEsqueciSenha), timeOutSmall): Object 'Object Repository/Entrar/btnEsqueciSenha' is present
+
+2019-09-14 17:55:16 - [MESSAGE][PASSED] - Object 'Object Repository/Entrar/btnEsqueciSenha' is present
+
+2019-09-14 17:55:16 - [TEST_STEP][PASSED] - btnLabelEsqueci = getText(findTestObject(btnEsqueciSenha)): Text of object 'Object Repository/Entrar/btnEsqueciSenha' is: 'Não sei a senha'
+
+2019-09-14 17:55:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Entrar/btnEsqueciSenha' is: 'Não sei a senha'
+
+2019-09-14 17:55:16 - [TEST_STEP][PASSED] - println(btnLabelEsqueci): null
+
+2019-09-14 17:55:16 - [TEST_STEP][PASSED] - validaBtnLabelEsqueci = verifyEqual(btnLabelEsqueci, hintEsqueciSenha): Actual object 'Não sei a senha' and expected object 'Não sei a senha' are equal
+
+2019-09-14 17:55:16 - [MESSAGE][PASSED] - Actual object 'Não sei a senha' and expected object 'Não sei a senha' are equal
+
+2019-09-14 17:55:16 - [TEST_STEP][PASSED] - if (validaBtnLabelEsqueci == true): null
+
+2019-09-14 17:55:16 - [TEST_STEP][PASSED] - println("Passou"): null
+
+2019-09-14 17:55:16 - [TEST_STEP][PASSED] - frameNaoTemConta = "Entrar/frameNaotemConta": null
+
+2019-09-14 17:55:16 - [TEST_STEP][PASSED] - hintNaoTemConta = "Não tem uma conta?" + "
+" + "Clique em Quero participar": null
+
+2019-09-14 17:55:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(frameNaoTemConta), timeOutSmall): Object 'Object Repository/Entrar/frameNaotemConta' is present
+
+2019-09-14 17:55:16 - [MESSAGE][PASSED] - Object 'Object Repository/Entrar/frameNaotemConta' is present
+
+2019-09-14 17:55:16 - [TEST_STEP][PASSED] - textFrameNaoTem = getText(findTestObject(frameNaoTemConta)): Text of object 'Object Repository/Entrar/frameNaotemConta' is: 'Não tem uma conta?
+Clique em Quero participar'
+
+2019-09-14 17:55:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Entrar/frameNaotemConta' is: 'Não tem uma conta?
+Clique em Quero participar'
+
+2019-09-14 17:55:16 - [TEST_STEP][PASSED] - println(textFrameNaoTem): null
+
+2019-09-14 17:55:16 - [TEST_STEP][PASSED] - validaFrameNaoTem = verifyEqual(textFrameNaoTem, hintNaoTemConta): Actual object 'Não tem uma conta?
+Clique em Quero participar' and expected object 'Não tem uma conta?
+Clique em Quero participar' are equal
+
+2019-09-14 17:55:16 - [MESSAGE][PASSED] - Actual object 'Não tem uma conta?
+Clique em Quero participar' and expected object 'Não tem uma conta?
+Clique em Quero participar' are equal
+
+2019-09-14 17:55:16 - [TEST_STEP][PASSED] - if (validaFrameNaoTem == true): null
+
+2019-09-14 17:55:16 - [TEST_STEP][PASSED] - println("Passou"): null
+
+2019-09-14 17:55:16 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-09-14 17:55:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-09-14 17:55:16 - [MESSAGE][PASSED] - Browser is closed
+
+2019-09-14 17:55:16 - [TEST_STEP][PASSED] - println("End Test Case"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CT005 - Loja" classname="Test Cases/CT005 - Loja" status="FAILED">
+         <failure type="FAILED" message="Test Cases/CT005 - Loja FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/PageLojaVirtual/btnQueroSerCliente' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PageLojaVirtual/btnQueroSerCliente' located by 'By.xpath: //div[@id='app']/div/div[2]/div/div/div/div/div[3]/div/button' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at CT005 - Loja.run(CT005 - Loja:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1568494436811.run(TempTestSuite1568494436811.groovy:36)
+"/>
+         <system-out><![CDATA[2019-09-14 17:55:16 - [TEST_CASE][FAILED] - Test Cases/CT005 - Loja: Test Cases/CT005 - Loja FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/PageLojaVirtual/btnQueroSerCliente' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PageLojaVirtual/btnQueroSerCliente' located by 'By.xpath: //div[@id='app']/div/div[2]/div/div/div/div/div[3]/div/button' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at CT005 - Loja.run(CT005 - Loja:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1568494436811.run(TempTestSuite1568494436811.groovy:36)
+
+
+2019-09-14 17:55:17 - [TEST_STEP][PASSED] - home.AcessarHome.refreshBrowser(): Acessou a pagina com sucesso
+
+2019-09-14 17:55:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-09-14 17:55:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-09-14 17:55:24 - [MESSAGE][PASSED] - Navigate to 'https://www.juntossomosmais.com.br/' successfully
+
+2019-09-14 17:55:25 - [MESSAGE][PASSED] - Current window maximized
+
+2019-09-14 17:55:25 - [MESSAGE][PASSED] - Acessou a pagina com sucesso
+
+2019-09-14 17:55:25 - [TEST_STEP][PASSED] - click(findTestObject("PageHome/menuLojaVirtual")): Object: 'Object Repository/PageHome/menuLojaVirtual' is clicked on
+
+2019-09-14 17:55:25 - [MESSAGE][PASSED] - Object: 'Object Repository/PageHome/menuLojaVirtual' is clicked on
+
+2019-09-14 17:55:25 - [TEST_STEP][PASSED] - delay(timeOutSmall): Delayed 1 second(s)
+
+2019-09-14 17:55:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-09-14 17:55:26 - [TEST_STEP][PASSED] - switchToWindowTitle("Loja Juntos Somos +"): Switched to window with title: 'Loja Juntos Somos +'
+
+2019-09-14 17:55:27 - [MESSAGE][PASSED] - Switched to window with title: 'Loja Juntos Somos +'
+
+2019-09-14 17:55:27 - [TEST_STEP][PASSED] - delay(timeOutSmall): Delayed 1 second(s)
+
+2019-09-14 17:55:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-09-14 17:55:28 - [TEST_STEP][PASSED] - btnSerCliente = "PageLojaVirtual/btnQueroSerCliente": null
+
+2019-09-14 17:55:28 - [TEST_STEP][PASSED] - textbtnSerCliente = "QUERO SER CLIENTE": null
+
+2019-09-14 17:55:28 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject(btnSerCliente), timeOutSmall): verifyElementPresent(findTestObject(btnSerCliente), timeOutSmall) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/PageLojaVirtual/btnQueroSerCliente' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PageLojaVirtual/btnQueroSerCliente' located by 'By.xpath: //div[@id='app']/div/div[2]/div/div/div/div/div[3]/div/button' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at CT005 - Loja.run(CT005 - Loja:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1568494436811.run(TempTestSuite1568494436811.groovy:36)
+
+
+2019-09-14 17:55:29 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='app']/div/div[2]/div/div/div/div/div[3]/div/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-09-14 17:55:30 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PageLojaVirtual/btnQueroSerCliente' located by 'By.xpath: //div[@id='app']/div/div[2]/div/div/div/div/div[3]/div/button' not found
+[[ATTACHMENT|C:\\Desafio_JuntosSomos\\CodeChallengeJuntosSomos\\Reports\\Home\\TS01 - Home\\20190914_175356\\1568494529922.png]]
+
+2019-09-14 17:55:30 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/PageLojaVirtual/btnQueroSerCliente' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PageLojaVirtual/btnQueroSerCliente' located by 'By.xpath: //div[@id='app']/div/div[2]/div/div/div/div/div[3]/div/button' not found)
+[[ATTACHMENT|C:\\Desafio_JuntosSomos\\CodeChallengeJuntosSomos\\Reports\\Home\\TS01 - Home\\20190914_175356\\1568494530409.png]]
+
+2019-09-14 17:55:30 - [MESSAGE][FAILED] - verifyElementPresent(findTestObject(btnSerCliente), timeOutSmall) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/PageLojaVirtual/btnQueroSerCliente' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PageLojaVirtual/btnQueroSerCliente' located by 'By.xpath: //div[@id='app']/div/div[2]/div/div/div/div/div[3]/div/button' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at CT005 - Loja.run(CT005 - Loja:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1568494436811.run(TempTestSuite1568494436811.groovy:36)
+
+
+2019-09-14 17:55:30 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-09-14 17:55:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-09-14 17:55:31 - [MESSAGE][PASSED] - Browser is closed
+
+2019-09-14 17:55:31 - [TEST_STEP][PASSED] - println("End Test Case"): null]]></system-out>
+         <system-err><![CDATA[2019-09-14 17:55:16 - [TEST_CASE][FAILED] - Test Cases/CT005 - Loja: Test Cases/CT005 - Loja FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/PageLojaVirtual/btnQueroSerCliente' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PageLojaVirtual/btnQueroSerCliente' located by 'By.xpath: //div[@id='app']/div/div[2]/div/div/div/div/div[3]/div/button' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at CT005 - Loja.run(CT005 - Loja:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1568494436811.run(TempTestSuite1568494436811.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CT004 - Ganhe" classname="Test Cases/CT004 - Ganhe" status="PASSED">
+         <system-out><![CDATA[2019-09-14 17:55:31 - [TEST_CASE][PASSED] - Test Cases/CT004 - Ganhe: Test Cases/CT004 - Ganhe
+
+2019-09-14 17:55:31 - [TEST_STEP][PASSED] - home.AcessarHome.refreshBrowser(): Acessou a pagina com sucesso
+
+2019-09-14 17:55:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-09-14 17:55:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-09-14 17:55:45 - [MESSAGE][PASSED] - Navigate to 'https://www.juntossomosmais.com.br/' successfully
+
+2019-09-14 17:55:46 - [MESSAGE][PASSED] - Current window maximized
+
+2019-09-14 17:55:46 - [MESSAGE][PASSED] - Acessou a pagina com sucesso
+
+2019-09-14 17:55:46 - [TEST_STEP][PASSED] - click(findTestObject("PageHome/menuGanhePremios")): Object: 'Object Repository/PageHome/menuGanhePremios' is clicked on
+
+2019-09-14 17:55:46 - [MESSAGE][PASSED] - Object: 'Object Repository/PageHome/menuGanhePremios' is clicked on
+
+2019-09-14 17:55:46 - [TEST_STEP][PASSED] - delay(timeOutSmall): Delayed 1 second(s)
+
+2019-09-14 17:55:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-09-14 17:55:47 - [TEST_STEP][PASSED] - descricaoGanhe = "PageGanhe/frameDescricaoGanhe": null
+
+2019-09-14 17:55:47 - [TEST_STEP][PASSED] - textDescricaoGanhe = "Troque": null
+
+2019-09-14 17:55:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject(descricaoGanhe), timeOutSmall): Object 'Object Repository/PageGanhe/frameDescricaoGanhe' is present
+
+2019-09-14 17:55:47 - [MESSAGE][PASSED] - Object 'Object Repository/PageGanhe/frameDescricaoGanhe' is present
+
+2019-09-14 17:55:47 - [TEST_STEP][PASSED] - labelDescricaoGanhe = getText(findTestObject(descricaoGanhe)): Text of object 'Object Repository/PageGanhe/frameDescricaoGanhe' is: 'Troque'
+
+2019-09-14 17:55:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/PageGanhe/frameDescricaoGanhe' is: 'Troque'
+
+2019-09-14 17:55:47 - [TEST_STEP][PASSED] - println(labelDescricaoGanhe): null
+
+2019-09-14 17:55:47 - [TEST_STEP][PASSED] - labelDescricao = getText(findTestObject(descricaoGanhe)): Text of object 'Object Repository/PageGanhe/frameDescricaoGanhe' is: 'Troque'
+
+2019-09-14 17:55:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/PageGanhe/frameDescricaoGanhe' is: 'Troque'
+
+2019-09-14 17:55:47 - [TEST_STEP][PASSED] - println(labelDescricao): null
+
+2019-09-14 17:55:47 - [TEST_STEP][PASSED] - validaLabelDescricao = verifyEqual(labelDescricao, textDescricaoGanhe): Actual object 'Troque' and expected object 'Troque' are equal
+
+2019-09-14 17:55:47 - [MESSAGE][PASSED] - Actual object 'Troque' and expected object 'Troque' are equal
+
+2019-09-14 17:55:47 - [TEST_STEP][PASSED] - if (validaLabelDescricao == true): null
+
+2019-09-14 17:55:47 - [TEST_STEP][PASSED] - println("Passou"): null
+
+2019-09-14 17:55:47 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-09-14 17:55:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-09-14 17:55:48 - [MESSAGE][PASSED] - Browser is closed
+
+2019-09-14 17:55:48 - [TEST_STEP][PASSED] - println("End Test Case"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-09-14 17:54:00 - [TEST_SUITE][FAILED] - TS01 - Home: Test Cases/CT005 - Loja FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/PageLojaVirtual/btnQueroSerCliente' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PageLojaVirtual/btnQueroSerCliente' located by 'By.xpath: //div[@id='app']/div/div[2]/div/div/div/div/div[3]/div/button' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at CT005 - Loja.run(CT005 - Loja:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1568494436811.run(TempTestSuite1568494436811.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-09-14 17:54:00 - [TEST_SUITE][FAILED] - TS01 - Home: Test Cases/CT005 - Loja FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/PageLojaVirtual/btnQueroSerCliente' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PageLojaVirtual/btnQueroSerCliente' located by 'By.xpath: //div[@id='app']/div/div[2]/div/div/div/div/div[3]/div/button' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at CT005 - Loja.run(CT005 - Loja:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1568494436811.run(TempTestSuite1568494436811.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

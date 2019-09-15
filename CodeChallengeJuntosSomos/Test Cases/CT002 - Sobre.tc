@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Sobre.feature</description>
+   <name>CT002 - Sobre</name>
+   <tag>sobre</tag>
+   <comment></comment>
+   <testCaseGuid>f93f3879-6cfa-4181-b474-fddb30050409</testCaseGuid>
+</TestCaseEntity>

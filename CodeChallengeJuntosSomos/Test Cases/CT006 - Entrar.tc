@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>AcessarLogin.feature</description>
+   <name>CT006 - Entrar</name>
+   <tag>entrar; login</tag>
+   <comment></comment>
+   <testCaseGuid>9e3b69a9-5023-42fe-9297-f0a98eac9bd2</testCaseGuid>
+</TestCaseEntity>

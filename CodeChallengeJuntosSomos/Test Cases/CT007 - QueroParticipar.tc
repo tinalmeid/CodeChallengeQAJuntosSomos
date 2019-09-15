@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Cadastro.feature</description>
+   <name>CT007 - QueroParticipar</name>
+   <tag>participar</tag>
+   <comment></comment>
+   <testCaseGuid>925f4d11-96b0-4d63-9f51-fe96b628e1bf</testCaseGuid>
+</TestCaseEntity>

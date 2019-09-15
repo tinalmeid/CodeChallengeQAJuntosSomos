@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>URL inicial da aplicação</description>
+      <initValue>'https://www.juntossomosmais.com.br/'</initValue>
+      <name>urlDefault</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Tempo Sleep default</description>
+      <initValue>1</initValue>
+      <name>timeOutSmall</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>CPF Usuario</description>
+      <initValue>'297.996.050-08'</initValue>
+      <name>CPFUsuario</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>CNPJ Loja</description>
+      <initValue>'18.318.585/0001-58'</initValue>
+      <name>CNPJLoja</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

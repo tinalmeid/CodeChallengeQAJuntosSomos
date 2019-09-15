@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>LojaVirtual.feature</description>
+   <name>CT005 - Loja</name>
+   <tag>loja</tag>
+   <comment></comment>
+   <testCaseGuid>c4d242b9-ac54-4ea3-847a-e050393cd852</testCaseGuid>
+</TestCaseEntity>

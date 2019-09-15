@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Home.feature</description>
+   <name>CT001 - Home</name>
+   <tag>home</tag>
+   <comment></comment>
+   <testCaseGuid>ab5fa046-7b59-4c5a-b6c1-c5b797fcd396</testCaseGuid>
+</TestCaseEntity>

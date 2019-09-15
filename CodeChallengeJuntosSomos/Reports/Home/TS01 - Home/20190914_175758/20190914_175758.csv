@@ -1,0 +1,198 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS01 - Home,Chrome 77.0.3865.75,,2019-09-14 17:58:02,2019-09-14 17:59:51,"1m - 49,450s",FAILED
+,,,,,,
+Test Cases/CT001 - Home,Chrome 77.0.3865.75,Home.feature,2019-09-14 17:58:03,2019-09-14 17:58:15,"12,805s",PASSED
+home.AcessarHome.refreshBrowser(),Chrome 77.0.3865.75,,2019-09-14 17:58:04,2019-09-14 17:58:14,"9,980s",PASSED
+home.AcessarHome.isElementPresent(),Chrome 77.0.3865.75,,2019-09-14 17:58:14,2019-09-14 17:58:14,"0,426s",PASSED
+"menuSobre = ""PageHome/menuSobre""",Chrome 77.0.3865.75,,2019-09-14 17:58:14,2019-09-14 17:58:14,"0,003s",PASSED
+"textMenuSobre = ""Sobre""",Chrome 77.0.3865.75,,2019-09-14 17:58:14,2019-09-14 17:58:14,"0,002s",PASSED
+labelSobre = getText(findTestObject(menuSobre)),Chrome 77.0.3865.75,,2019-09-14 17:58:14,2019-09-14 17:58:14,"0,111s",PASSED
+println(labelSobre),Chrome 77.0.3865.75,,2019-09-14 17:58:14,2019-09-14 17:58:14,"0,005s",PASSED
+"validaLabelSobre = verifyEqual(labelSobre, textMenuSobre)",Chrome 77.0.3865.75,,2019-09-14 17:58:14,2019-09-14 17:58:14,"0,047s",PASSED
+if (validaLabelSobre == true),Chrome 77.0.3865.75,,2019-09-14 17:58:14,2019-09-14 17:58:14,"0,005s",PASSED
+"menuJunte = ""PageHome/menuJuntePontos""",Chrome 77.0.3865.75,,2019-09-14 17:58:14,2019-09-14 17:58:14,"0,001s",PASSED
+"textMenuJunte = ""Junte pontos""",Chrome 77.0.3865.75,,2019-09-14 17:58:14,2019-09-14 17:58:14,"0,001s",PASSED
+labelJunte = getText(findTestObject(menuJunte)),Chrome 77.0.3865.75,,2019-09-14 17:58:14,2019-09-14 17:58:14,"0,078s",PASSED
+println(labelJunte),Chrome 77.0.3865.75,,2019-09-14 17:58:14,2019-09-14 17:58:14,"0,004s",PASSED
+"validaLabelJunte = verifyEqual(labelJunte, textMenuJunte)",Chrome 77.0.3865.75,,2019-09-14 17:58:14,2019-09-14 17:58:14,"0,003s",PASSED
+if (validaLabelJunte == true),Chrome 77.0.3865.75,,2019-09-14 17:58:14,2019-09-14 17:58:14,"0,005s",PASSED
+"menuGanhe = ""PageHome/menuGanhePremios""",Chrome 77.0.3865.75,,2019-09-14 17:58:14,2019-09-14 17:58:14,"0,001s",PASSED
+"textMenuGanhe = ""Ganhe prêmios""",Chrome 77.0.3865.75,,2019-09-14 17:58:14,2019-09-14 17:58:14,"0,001s",PASSED
+labelGanhe = getText(findTestObject(menuGanhe)),Chrome 77.0.3865.75,,2019-09-14 17:58:14,2019-09-14 17:58:14,"0,127s",PASSED
+println(labelGanhe),Chrome 77.0.3865.75,,2019-09-14 17:58:14,2019-09-14 17:58:14,"0,004s",PASSED
+"validaLabelGanhe = verifyEqual(labelGanhe, textMenuGanhe)",Chrome 77.0.3865.75,,2019-09-14 17:58:14,2019-09-14 17:58:14,"0,001s",PASSED
+if (validaLabelGanhe == true),Chrome 77.0.3865.75,,2019-09-14 17:58:14,2019-09-14 17:58:14,"0,002s",PASSED
+"lojaVirtual = ""PageHome/menuLojaVirtual""",Chrome 77.0.3865.75,,2019-09-14 17:58:14,2019-09-14 17:58:14,"0,001s",PASSED
+"textMenuLoja = ""Loja virtual""",Chrome 77.0.3865.75,,2019-09-14 17:58:14,2019-09-14 17:58:14,"0,001s",PASSED
+labelLoja = getText(findTestObject(lojaVirtual)),Chrome 77.0.3865.75,,2019-09-14 17:58:14,2019-09-14 17:58:14,"0,079s",PASSED
+println(labelLoja),Chrome 77.0.3865.75,,2019-09-14 17:58:14,2019-09-14 17:58:14,"0,001s",PASSED
+"validaLabelLoja = verifyEqual(labelLoja, textMenuLoja)",Chrome 77.0.3865.75,,2019-09-14 17:58:14,2019-09-14 17:58:14,"0,002s",PASSED
+if (validaLabelLoja == true),Chrome 77.0.3865.75,,2019-09-14 17:58:14,2019-09-14 17:58:14,"0,004s",PASSED
+"btnEntrar = ""PageHome/btnEntrar""",Chrome 77.0.3865.75,,2019-09-14 17:58:14,2019-09-14 17:58:14,"0,004s",PASSED
+"hintBtnEntrar = ""Entrar""",Chrome 77.0.3865.75,,2019-09-14 17:58:14,2019-09-14 17:58:14,"0,003s",PASSED
+txtBtnEntrar = getText(findTestObject(btnEntrar)),Chrome 77.0.3865.75,,2019-09-14 17:58:14,2019-09-14 17:58:15,"0,060s",PASSED
+println(txtBtnEntrar),Chrome 77.0.3865.75,,2019-09-14 17:58:15,2019-09-14 17:58:15,"0,001s",PASSED
+"validaBtnEntrar = verifyEqual(txtBtnEntrar, hintBtnEntrar)",Chrome 77.0.3865.75,,2019-09-14 17:58:15,2019-09-14 17:58:15,"0,002s",PASSED
+if (validaBtnEntrar == true),Chrome 77.0.3865.75,,2019-09-14 17:58:15,2019-09-14 17:58:15,"0,004s",PASSED
+"btnParticipar = ""PageHome/btnQueroParticipar""",Chrome 77.0.3865.75,,2019-09-14 17:58:15,2019-09-14 17:58:15,"0,006s",PASSED
+"hintBtnParticipar = ""Quero participar""",Chrome 77.0.3865.75,,2019-09-14 17:58:15,2019-09-14 17:58:15,"0,001s",PASSED
+textBtnParticipar = getText(findTestObject(btnParticipar)),Chrome 77.0.3865.75,,2019-09-14 17:58:15,2019-09-14 17:58:15,"0,056s",PASSED
+println(textBtnParticipar),Chrome 77.0.3865.75,,2019-09-14 17:58:15,2019-09-14 17:58:15,"0,001s",PASSED
+"validaBtnParticipar = verifyEqual(textBtnParticipar, hintBtnParticipar)",Chrome 77.0.3865.75,,2019-09-14 17:58:15,2019-09-14 17:58:15,"0,002s",PASSED
+if (validaBtnParticipar == true),Chrome 77.0.3865.75,,2019-09-14 17:58:15,2019-09-14 17:58:15,"0,001s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 77.0.3865.75,,2019-09-14 17:58:15,2019-09-14 17:58:15,"0,824s",PASSED
+,,,,,,
+Test Cases/CT002 - Sobre,Chrome 77.0.3865.75,Sobre.feature,2019-09-14 17:58:15,2019-09-14 17:58:26,"10,068s",PASSED
+home.AcessarHome.refreshBrowser(),Chrome 77.0.3865.75,,2019-09-14 17:58:16,2019-09-14 17:58:23,"7,538s",PASSED
+"click(findTestObject(""PageHome/menuSobre""))",Chrome 77.0.3865.75,,2019-09-14 17:58:23,2019-09-14 17:58:24,"0,173s",PASSED
+delay(timeOutSmall),Chrome 77.0.3865.75,,2019-09-14 17:58:24,2019-09-14 17:58:25,"1,016s",PASSED
+"descricaoSobre = ""PageSobre/frameDescricaoSobre""",Chrome 77.0.3865.75,,2019-09-14 17:58:25,2019-09-14 17:58:25,"0,000s",PASSED
+"textDescricaoSobre = ""O Juntos Somos + nasceu para fortalecer o varejo da construção e transformar a vida dos profissionais que constroem sonhos. Somos o maior programa de fidelidade do varejo de material de construção levando qualificação e benefícios para lojistas, vendedores e profissionais da obra.""",Chrome 77.0.3865.75,,2019-09-14 17:58:25,2019-09-14 17:58:25,"0,003s",PASSED
+"verifyElementPresent(findTestObject(descricaoSobre), timeOutSmall)",Chrome 77.0.3865.75,,2019-09-14 17:58:25,2019-09-14 17:58:25,"0,060s",PASSED
+labelDescricaoSobre = getText(findTestObject(descricaoSobre)),Chrome 77.0.3865.75,,2019-09-14 17:58:25,2019-09-14 17:58:25,"0,077s",PASSED
+println(labelDescricaoSobre),Chrome 77.0.3865.75,,2019-09-14 17:58:25,2019-09-14 17:58:25,"0,002s",PASSED
+labelDescricao = getText(findTestObject(descricaoSobre)),Chrome 77.0.3865.75,,2019-09-14 17:58:25,2019-09-14 17:58:25,"0,041s",PASSED
+println(labelDescricao),Chrome 77.0.3865.75,,2019-09-14 17:58:25,2019-09-14 17:58:25,"0,000s",PASSED
+"validaLabelDescricao = verifyEqual(labelDescricao, textDescricaoSobre)",Chrome 77.0.3865.75,,2019-09-14 17:58:25,2019-09-14 17:58:25,"0,002s",PASSED
+if (validaLabelDescricao == true),Chrome 77.0.3865.75,,2019-09-14 17:58:25,2019-09-14 17:58:25,"0,001s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 77.0.3865.75,,2019-09-14 17:58:25,2019-09-14 17:58:26,"0,736s",PASSED
+,,,,,,
+Test Cases/CT003 - Junte,Chrome 77.0.3865.75,JuntePontos.feature,2019-09-14 17:58:26,2019-09-14 17:58:36,"10,237s",PASSED
+home.AcessarHome.refreshBrowser(),Chrome 77.0.3865.75,,2019-09-14 17:58:26,2019-09-14 17:58:34,"7,711s",PASSED
+"click(findTestObject(""PageHome/menuJuntePontos""))",Chrome 77.0.3865.75,,2019-09-14 17:58:34,2019-09-14 17:58:34,"0,148s",PASSED
+delay(timeOutSmall),Chrome 77.0.3865.75,,2019-09-14 17:58:34,2019-09-14 17:58:35,"1,002s",PASSED
+"descricaoJunte = ""PageJunte/frameDescricaoEntreGanhe""",Chrome 77.0.3865.75,,2019-09-14 17:58:35,2019-09-14 17:58:35,"0,003s",PASSED
+"textDescricaoJunte = ""Entre e ganhe a vontade""",Chrome 77.0.3865.75,,2019-09-14 17:58:35,2019-09-14 17:58:35,"0,000s",PASSED
+"verifyElementPresent(findTestObject(descricaoJunte), timeOutSmall)",Chrome 77.0.3865.75,,2019-09-14 17:58:35,2019-09-14 17:58:35,"0,135s",PASSED
+labelDescricaoJunte = getText(findTestObject(descricaoJunte)),Chrome 77.0.3865.75,,2019-09-14 17:58:35,2019-09-14 17:58:35,"0,076s",PASSED
+println(labelDescricaoJunte),Chrome 77.0.3865.75,,2019-09-14 17:58:35,2019-09-14 17:58:35,"0,002s",PASSED
+labelDescricao = getText(findTestObject(descricaoJunte)),Chrome 77.0.3865.75,,2019-09-14 17:58:35,2019-09-14 17:58:35,"0,057s",PASSED
+println(labelDescricao),Chrome 77.0.3865.75,,2019-09-14 17:58:35,2019-09-14 17:58:35,"0,001s",PASSED
+"validaLabelDescricao = verifyEqual(labelDescricao, textDescricaoJunte)",Chrome 77.0.3865.75,,2019-09-14 17:58:35,2019-09-14 17:58:35,"0,004s",PASSED
+if (validaLabelDescricao == true),Chrome 77.0.3865.75,,2019-09-14 17:58:35,2019-09-14 17:58:35,"0,002s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 77.0.3865.75,,2019-09-14 17:58:35,2019-09-14 17:58:36,"0,744s",PASSED
+,,,,,,
+Test Cases/CT004 - Ganhe,Chrome 77.0.3865.75,GanhePremios.feature,2019-09-14 17:58:36,2019-09-14 17:58:48,"12,233s",FAILED
+home.AcessarHome.refreshBrowser(),Chrome 77.0.3865.75,,2019-09-14 17:58:36,2019-09-14 17:58:44,"7,641s",PASSED
+"click(findTestObject(""PageHome/menuGanhePremios""))",Chrome 77.0.3865.75,,2019-09-14 17:58:44,2019-09-14 17:58:44,"0,130s",PASSED
+delay(timeOutSmall),Chrome 77.0.3865.75,,2019-09-14 17:58:44,2019-09-14 17:58:45,"1,001s",PASSED
+"descricaoGanhe = ""PageGanhe/frameDescricaoGanhe""",Chrome 77.0.3865.75,,2019-09-14 17:58:45,2019-09-14 17:58:45,"0,000s",PASSED
+"textDescricaoGanhe = ""Troque""",Chrome 77.0.3865.75,,2019-09-14 17:58:45,2019-09-14 17:58:45,"0,001s",PASSED
+"verifyElementPresent(findTestObject(descricaoGanhe), timeOutSmall)",Chrome 77.0.3865.75,,2019-09-14 17:58:45,2019-09-14 17:58:47,"2,353s",FAILED
+Start listener action : sampleAfterTestCase,Chrome 77.0.3865.75,,2019-09-14 17:58:47,2019-09-14 17:58:48,"0,759s",PASSED
+,,,,,,
+Test Cases/CT005 - Loja,Chrome 77.0.3865.75,LojaVirtual.feature,2019-09-14 17:58:48,2019-09-14 17:59:02,"14,035s",FAILED
+home.AcessarHome.refreshBrowser(),Chrome 77.0.3865.75,,2019-09-14 17:58:48,2019-09-14 17:58:56,"7,495s",PASSED
+"click(findTestObject(""PageHome/menuLojaVirtual""))",Chrome 77.0.3865.75,,2019-09-14 17:58:56,2019-09-14 17:58:56,"0,192s",PASSED
+delay(timeOutSmall),Chrome 77.0.3865.75,,2019-09-14 17:58:56,2019-09-14 17:58:57,"1,003s",PASSED
+"switchToWindowTitle(""Loja Juntos Somos +"")",Chrome 77.0.3865.75,,2019-09-14 17:58:57,2019-09-14 17:58:58,"1,150s",PASSED
+delay(timeOutSmall),Chrome 77.0.3865.75,,2019-09-14 17:58:58,2019-09-14 17:58:59,"1,000s",PASSED
+"btnSerCliente = ""PageLojaVirtual/btnQueroSerCliente""",Chrome 77.0.3865.75,,2019-09-14 17:58:59,2019-09-14 17:58:59,"0,000s",PASSED
+"textbtnSerCliente = ""QUERO SER CLIENTE""",Chrome 77.0.3865.75,,2019-09-14 17:58:59,2019-09-14 17:58:59,"0,000s",PASSED
+"verifyElementPresent(findTestObject(btnSerCliente), timeOutSmall)",Chrome 77.0.3865.75,,2019-09-14 17:58:59,2019-09-14 17:59:01,"1,997s",FAILED
+Start listener action : sampleAfterTestCase,Chrome 77.0.3865.75,,2019-09-14 17:59:01,2019-09-14 17:59:02,"0,844s",PASSED
+,,,,,,
+Test Cases/CT006 - Entrar,Chrome 77.0.3865.75,AcessarLogin.feature,2019-09-14 17:59:02,2019-09-14 17:59:12,"9,607s",PASSED
+home.AcessarHome.refreshBrowser(),Chrome 77.0.3865.75,,2019-09-14 17:59:03,2019-09-14 17:59:09,"6,551s",PASSED
+"click(findTestObject(""PageHome/btnEntrar""))",Chrome 77.0.3865.75,,2019-09-14 17:59:09,2019-09-14 17:59:09,"0,254s",PASSED
+delay(timeOutSmall),Chrome 77.0.3865.75,,2019-09-14 17:59:09,2019-09-14 17:59:10,"1,001s",PASSED
+"titleCardLogin = ""Entrar/frameAreaRestrita""",Chrome 77.0.3865.75,,2019-09-14 17:59:10,2019-09-14 17:59:10,"0,000s",PASSED
+"hintTitleLogin = ""Acesse aqui sua área restrita""",Chrome 77.0.3865.75,,2019-09-14 17:59:10,2019-09-14 17:59:10,"0,001s",PASSED
+"verifyElementPresent(findTestObject(titleCardLogin), timeOutSmall)",Chrome 77.0.3865.75,,2019-09-14 17:59:10,2019-09-14 17:59:10,"0,043s",PASSED
+labelTitleCard = getText(findTestObject(titleCardLogin)),Chrome 77.0.3865.75,,2019-09-14 17:59:10,2019-09-14 17:59:10,"0,047s",PASSED
+println(labelTitleCard),Chrome 77.0.3865.75,,2019-09-14 17:59:10,2019-09-14 17:59:10,"0,001s",PASSED
+"validaLabelTitle = verifyEqual(labelTitleCard, hintTitleLogin)",Chrome 77.0.3865.75,,2019-09-14 17:59:10,2019-09-14 17:59:10,"0,002s",PASSED
+if (validaLabelTitle == true),Chrome 77.0.3865.75,,2019-09-14 17:59:10,2019-09-14 17:59:10,"0,002s",PASSED
+"campoUsuario = ""Entrar/campoCPF""",Chrome 77.0.3865.75,,2019-09-14 17:59:10,2019-09-14 17:59:10,"0,000s",PASSED
+"labelUsuario = ""Entrar/labelCPF""",Chrome 77.0.3865.75,,2019-09-14 17:59:10,2019-09-14 17:59:10,"0,000s",PASSED
+"hintLabelUsuario = ""CPF :""",Chrome 77.0.3865.75,,2019-09-14 17:59:10,2019-09-14 17:59:10,"0,001s",PASSED
+"verifyElementPresent(findTestObject(campoUsuario), timeOutSmall)",Chrome 77.0.3865.75,,2019-09-14 17:59:10,2019-09-14 17:59:11,"0,041s",PASSED
+"verifyElementPresent(findTestObject(labelUsuario), timeOutSmall)",Chrome 77.0.3865.75,,2019-09-14 17:59:11,2019-09-14 17:59:11,"0,028s",PASSED
+textLabelCPF = getText(findTestObject(labelUsuario)),Chrome 77.0.3865.75,,2019-09-14 17:59:11,2019-09-14 17:59:11,"0,043s",PASSED
+println(textLabelCPF),Chrome 77.0.3865.75,,2019-09-14 17:59:11,2019-09-14 17:59:11,"0,000s",PASSED
+"validaTextLabelCPF = verifyEqual(textLabelCPF, hintLabelUsuario)",Chrome 77.0.3865.75,,2019-09-14 17:59:11,2019-09-14 17:59:11,"0,001s",PASSED
+if (validaTextLabelCPF == true),Chrome 77.0.3865.75,,2019-09-14 17:59:11,2019-09-14 17:59:11,"0,002s",PASSED
+"campoSenha = ""Entrar/campoSenha""",Chrome 77.0.3865.75,,2019-09-14 17:59:11,2019-09-14 17:59:11,"0,000s",PASSED
+"labelSenha = ""Entrar/labelSenha""",Chrome 77.0.3865.75,,2019-09-14 17:59:11,2019-09-14 17:59:11,"0,001s",PASSED
+"hintLabelSenha = ""Senha:""",Chrome 77.0.3865.75,,2019-09-14 17:59:11,2019-09-14 17:59:11,"0,001s",PASSED
+"verifyElementPresent(findTestObject(campoSenha), timeOutSmall)",Chrome 77.0.3865.75,,2019-09-14 17:59:11,2019-09-14 17:59:11,"0,028s",PASSED
+"verifyElementPresent(findTestObject(labelSenha), timeOutSmall)",Chrome 77.0.3865.75,,2019-09-14 17:59:11,2019-09-14 17:59:11,"0,026s",PASSED
+textLabelSenha = getText(findTestObject(labelSenha)),Chrome 77.0.3865.75,,2019-09-14 17:59:11,2019-09-14 17:59:11,"0,044s",PASSED
+println(textLabelSenha),Chrome 77.0.3865.75,,2019-09-14 17:59:11,2019-09-14 17:59:11,"0,001s",PASSED
+"validaTextLabelSenha = verifyEqual(textLabelSenha, hintLabelSenha)",Chrome 77.0.3865.75,,2019-09-14 17:59:11,2019-09-14 17:59:11,"0,001s",PASSED
+if (validaTextLabelSenha == true),Chrome 77.0.3865.75,,2019-09-14 17:59:11,2019-09-14 17:59:11,"0,002s",PASSED
+"btnEntrar = ""Entrar/btnEntrar""",Chrome 77.0.3865.75,,2019-09-14 17:59:11,2019-09-14 17:59:11,"0,000s",PASSED
+"hintEntrar = ""Entrar""",Chrome 77.0.3865.75,,2019-09-14 17:59:11,2019-09-14 17:59:11,"0,000s",PASSED
+"verifyElementPresent(findTestObject(btnEntrar), timeOutSmall)",Chrome 77.0.3865.75,,2019-09-14 17:59:11,2019-09-14 17:59:11,"0,030s",PASSED
+btnLabelEntrar = getText(findTestObject(btnEntrar)),Chrome 77.0.3865.75,,2019-09-14 17:59:11,2019-09-14 17:59:11,"0,047s",PASSED
+println(btnLabelEntrar),Chrome 77.0.3865.75,,2019-09-14 17:59:11,2019-09-14 17:59:11,"0,001s",PASSED
+"validaBtnLabelEntrar = verifyEqual(btnLabelEntrar, hintEntrar)",Chrome 77.0.3865.75,,2019-09-14 17:59:11,2019-09-14 17:59:11,"0,002s",PASSED
+if (validaBtnLabelEntrar == true),Chrome 77.0.3865.75,,2019-09-14 17:59:11,2019-09-14 17:59:11,"0,001s",PASSED
+"btnEsqueciSenha = ""Entrar/btnEsqueciSenha""",Chrome 77.0.3865.75,,2019-09-14 17:59:11,2019-09-14 17:59:11,"0,001s",PASSED
+"hintEsqueciSenha = ""Não sei a senha""",Chrome 77.0.3865.75,,2019-09-14 17:59:11,2019-09-14 17:59:11,"0,000s",PASSED
+"verifyElementPresent(findTestObject(btnEsqueciSenha), timeOutSmall)",Chrome 77.0.3865.75,,2019-09-14 17:59:11,2019-09-14 17:59:11,"0,024s",PASSED
+btnLabelEsqueci = getText(findTestObject(btnEsqueciSenha)),Chrome 77.0.3865.75,,2019-09-14 17:59:11,2019-09-14 17:59:11,"0,056s",PASSED
+println(btnLabelEsqueci),Chrome 77.0.3865.75,,2019-09-14 17:59:11,2019-09-14 17:59:11,"0,001s",PASSED
+"validaBtnLabelEsqueci = verifyEqual(btnLabelEsqueci, hintEsqueciSenha)",Chrome 77.0.3865.75,,2019-09-14 17:59:11,2019-09-14 17:59:11,"0,001s",PASSED
+if (validaBtnLabelEsqueci == true),Chrome 77.0.3865.75,,2019-09-14 17:59:11,2019-09-14 17:59:11,"0,002s",PASSED
+"frameNaoTemConta = ""Entrar/frameNaotemConta""",Chrome 77.0.3865.75,,2019-09-14 17:59:11,2019-09-14 17:59:11,"0,001s",PASSED
+"hintNaoTemConta = ""Não tem uma conta?"" + ""
+"" + ""Clique em Quero participar""",Chrome 77.0.3865.75,,2019-09-14 17:59:11,2019-09-14 17:59:11,"0,001s",PASSED
+"verifyElementPresent(findTestObject(frameNaoTemConta), timeOutSmall)",Chrome 77.0.3865.75,,2019-09-14 17:59:11,2019-09-14 17:59:11,"0,032s",PASSED
+textFrameNaoTem = getText(findTestObject(frameNaoTemConta)),Chrome 77.0.3865.75,,2019-09-14 17:59:11,2019-09-14 17:59:11,"0,051s",PASSED
+println(textFrameNaoTem),Chrome 77.0.3865.75,,2019-09-14 17:59:11,2019-09-14 17:59:11,"0,001s",PASSED
+"validaFrameNaoTem = verifyEqual(textFrameNaoTem, hintNaoTemConta)",Chrome 77.0.3865.75,,2019-09-14 17:59:11,2019-09-14 17:59:11,"0,002s",PASSED
+if (validaFrameNaoTem == true),Chrome 77.0.3865.75,,2019-09-14 17:59:11,2019-09-14 17:59:11,"0,001s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 77.0.3865.75,,2019-09-14 17:59:11,2019-09-14 17:59:12,"0,715s",PASSED
+,,,,,,
+Test Cases/CT007 - QueroParticipar,Chrome 77.0.3865.75,Cadastro.feature,2019-09-14 17:59:12,2019-09-14 17:59:23,"11,603s",PASSED
+home.AcessarHome.refreshBrowser(),Chrome 77.0.3865.75,,2019-09-14 17:59:12,2019-09-14 17:59:21,"9,107s",PASSED
+"click(findTestObject(""PageHome/btnQueroParticipar""))",Chrome 77.0.3865.75,,2019-09-14 17:59:21,2019-09-14 17:59:21,"0,144s",PASSED
+delay(timeOutSmall),Chrome 77.0.3865.75,,2019-09-14 17:59:21,2019-09-14 17:59:22,"1,002s",PASSED
+"titleCardParticipar = ""Participar/frameQualProfissao""",Chrome 77.0.3865.75,,2019-09-14 17:59:22,2019-09-14 17:59:22,"0,001s",PASSED
+"hintTitleParticipar = ""Qual é a sua profissão?""",Chrome 77.0.3865.75,,2019-09-14 17:59:22,2019-09-14 17:59:22,"0,001s",PASSED
+"verifyElementPresent(findTestObject(titleCardParticipar), timeOutSmall)",Chrome 77.0.3865.75,,2019-09-14 17:59:22,2019-09-14 17:59:22,"0,059s",PASSED
+"radioTrabalhaLoja = ""Participar/labelTrabalhoLoja""",Chrome 77.0.3865.75,,2019-09-14 17:59:22,2019-09-14 17:59:22,"0,001s",PASSED
+"hintTrabalhoLoja = ""Trabalho em loja de materiais de construção""",Chrome 77.0.3865.75,,2019-09-14 17:59:22,2019-09-14 17:59:22,"0,001s",PASSED
+"verifyElementPresent(findTestObject(radioTrabalhaLoja), timeOutSmall)",Chrome 77.0.3865.75,,2019-09-14 17:59:22,2019-09-14 17:59:22,"0,037s",PASSED
+textRadioTrabalhoLoja = getText(findTestObject(radioTrabalhaLoja)),Chrome 77.0.3865.75,,2019-09-14 17:59:22,2019-09-14 17:59:22,"0,038s",PASSED
+println(textRadioTrabalhoLoja),Chrome 77.0.3865.75,,2019-09-14 17:59:22,2019-09-14 17:59:22,"0,001s",PASSED
+"validaRadioTrabalhoLoja = verifyEqual(textRadioTrabalhoLoja, hintTrabalhoLoja)",Chrome 77.0.3865.75,,2019-09-14 17:59:22,2019-09-14 17:59:22,"0,002s",PASSED
+if (validaRadioTrabalhoLoja == true),Chrome 77.0.3865.75,,2019-09-14 17:59:22,2019-09-14 17:59:22,"0,001s",PASSED
+"radioTrabalhaObras = ""Participar/labelTrabalhoObras""",Chrome 77.0.3865.75,,2019-09-14 17:59:22,2019-09-14 17:59:22,"0,001s",PASSED
+"hintTrabalhoObras = ""Trabalho em obras ou reformas""",Chrome 77.0.3865.75,,2019-09-14 17:59:22,2019-09-14 17:59:22,"0,000s",PASSED
+"verifyElementPresent(findTestObject(radioTrabalhaObras), timeOutSmall)",Chrome 77.0.3865.75,,2019-09-14 17:59:22,2019-09-14 17:59:22,"0,020s",PASSED
+textRadioTrabalhoObras = getText(findTestObject(radioTrabalhaObras)),Chrome 77.0.3865.75,,2019-09-14 17:59:22,2019-09-14 17:59:22,"0,039s",PASSED
+println(textRadioTrabalhoObras),Chrome 77.0.3865.75,,2019-09-14 17:59:22,2019-09-14 17:59:22,"0,001s",PASSED
+"validaRadioTrabalhoObras = verifyEqual(textRadioTrabalhoObras, hintTrabalhoObras)",Chrome 77.0.3865.75,,2019-09-14 17:59:22,2019-09-14 17:59:22,"0,001s",PASSED
+if (validaRadioTrabalhoObras == true),Chrome 77.0.3865.75,,2019-09-14 17:59:22,2019-09-14 17:59:22,"0,001s",PASSED
+"btnParticipar = ""Participar/btnParticipar""",Chrome 77.0.3865.75,,2019-09-14 17:59:22,2019-09-14 17:59:22,"0,000s",PASSED
+"hintBtnParticipar = ""Participar agora""",Chrome 77.0.3865.75,,2019-09-14 17:59:22,2019-09-14 17:59:22,"0,000s",PASSED
+"verifyElementPresent(findTestObject(btnParticipar), timeOutSmall)",Chrome 77.0.3865.75,,2019-09-14 17:59:22,2019-09-14 17:59:23,"0,022s",PASSED
+textBtnParticipar = getText(findTestObject(btnParticipar)),Chrome 77.0.3865.75,,2019-09-14 17:59:23,2019-09-14 17:59:23,"0,041s",PASSED
+println(textBtnParticipar),Chrome 77.0.3865.75,,2019-09-14 17:59:23,2019-09-14 17:59:23,"0,001s",PASSED
+"validaBtnParticipar = verifyEqual(textBtnParticipar, hintBtnParticipar)",Chrome 77.0.3865.75,,2019-09-14 17:59:23,2019-09-14 17:59:23,"0,001s",PASSED
+if (validaBtnParticipar == true),Chrome 77.0.3865.75,,2019-09-14 17:59:23,2019-09-14 17:59:23,"0,000s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 77.0.3865.75,,2019-09-14 17:59:23,2019-09-14 17:59:23,"0,711s",PASSED
+,,,,,,
+Test Cases/CT008 - QueroParticiparCPF,Chrome 77.0.3865.75,,2019-09-14 17:59:23,2019-09-14 17:59:37,"13,392s",PASSED
+home.AcessarHome.refreshBrowser(),Chrome 77.0.3865.75,,2019-09-14 17:59:24,2019-09-14 17:59:31,"7,662s",PASSED
+"click(findTestObject(""PageHome/btnQueroParticipar""))",Chrome 77.0.3865.75,,2019-09-14 17:59:31,2019-09-14 17:59:31,"0,150s",PASSED
+delay(timeOutSmall),Chrome 77.0.3865.75,,2019-09-14 17:59:31,2019-09-14 17:59:32,"1,001s",PASSED
+"click(findTestObject(""QueroParticipar/frameTrabalhoObras""))",Chrome 77.0.3865.75,,2019-09-14 17:59:32,2019-09-14 17:59:33,"0,184s",PASSED
+"click(findTestObject(""QueroParticipar/campoSelecioneProfissao""))",Chrome 77.0.3865.75,,2019-09-14 17:59:33,2019-09-14 17:59:33,"0,196s",PASSED
+"click(findTestObject(""QueroParticipar/selecaoUsuarioArquiteto""))",Chrome 77.0.3865.75,,2019-09-14 17:59:33,2019-09-14 17:59:34,"1,731s",PASSED
+delay(timeOutSmall),Chrome 77.0.3865.75,,2019-09-14 17:59:34,2019-09-14 17:59:35,"1,001s",PASSED
+"setText(findTestObject(""QueroParticipar/campoCPFArquiteto""), CPFUsuario)",Chrome 77.0.3865.75,,2019-09-14 17:59:35,2019-09-14 17:59:36,"0,434s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 77.0.3865.75,,2019-09-14 17:59:36,2019-09-14 17:59:37,"0,742s",PASSED
+,,,,,,
+Test Cases/CT009 - QueroParticiparCNPJ,Chrome 77.0.3865.75,,2019-09-14 17:59:37,2019-09-14 17:59:51,"14,335s",PASSED
+home.AcessarHome.refreshBrowser(),Chrome 77.0.3865.75,,2019-09-14 17:59:37,2019-09-14 17:59:46,"8,868s",PASSED
+"click(findTestObject(""PageHome/btnQueroParticipar""))",Chrome 77.0.3865.75,,2019-09-14 17:59:46,2019-09-14 17:59:46,"0,143s",PASSED
+delay(timeOutSmall),Chrome 77.0.3865.75,,2019-09-14 17:59:46,2019-09-14 17:59:47,"1,001s",PASSED
+"click(findTestObject(""QueroParticipar/frameTrabalhoLoja""))",Chrome 77.0.3865.75,,2019-09-14 17:59:47,2019-09-14 17:59:47,"0,188s",PASSED
+"click(findTestObject(""QueroParticipar/listBoxSelecioneProfissao""))",Chrome 77.0.3865.75,,2019-09-14 17:59:47,2019-09-14 17:59:47,"0,174s",PASSED
+"click(findTestObject(""QueroParticipar/selecaoUsuarioGerente""))",Chrome 77.0.3865.75,,2019-09-14 17:59:47,2019-09-14 17:59:49,"1,725s",PASSED
+"setText(findTestObject(""QueroParticipar/campoCNPJGerente""), CNPJLoja)",Chrome 77.0.3865.75,,2019-09-14 17:59:49,2019-09-14 17:59:50,"0,615s",PASSED
+"setText(findTestObject(""QueroParticipar/campoCPFGerente""), CPFUsuario)",Chrome 77.0.3865.75,,2019-09-14 17:59:50,2019-09-14 17:59:50,"0,460s",PASSED
+Start listener action : sampleAfterTestCase,Chrome 77.0.3865.75,,2019-09-14 17:59:50,2019-09-14 17:59:51,"0,757s",PASSED
