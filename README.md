@@ -24,6 +24,7 @@ Liguagem: Grovvy
 Integração: Selenium  e Cucumber
 
 Scripts: contém os scripts de testes
+
 Testes Suites: contém as suites de testes
 Reports: contém as execuções dos suites de testes executados
 Include/features: contém os cenários de testes
