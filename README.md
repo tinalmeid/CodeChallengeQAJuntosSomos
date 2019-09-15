@@ -1,7 +1,7 @@
 # Code Challenge QA Juntos Somos+
 > Descrição
 
-o Code Challenge foi realizado na ferramenta Katalon Studio. 
+O Code Challenge foi realizado na ferramenta Katalon Studio. 
 Esta ferramenta pode ser utilizada para testes de API, Mobile e Web. 
 Ela também tem integração com Jira para reports, Kobiton para testes na nuvem e até Git para repositório.
 Também possui Web analitics para que todos os passos possam ser acompanhados pela equipe remotamente.
