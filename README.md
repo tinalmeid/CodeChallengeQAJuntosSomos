@@ -35,6 +35,12 @@ Reports: contém as execuções dos suites de testes executados
 
 Include/features: contém os cenários de testes
 
+## Execução
+
+No prompt de comando vá até a pasta da sua compilação do Katalon Studio: katalon.exe (Windows), pasta Aplicativos (Mac OS) ou arquivo katalon (Linux)
+
+Command Line: katalon -noSplash  -runMode=console -consoleLog -noExit -projectPath="C:\CodeJuntos\CodeChallengeQAJuntosSomos+\CodeChallengeJuntosSomos\CodeChallengeJuntosSomos.prj" -retry=0 -testSuitePath="Test Suites/Home/TS01 - Home" -executionProfile="default" -browserType="Chrome"
+
 ## Meta
 
 Nome: [Cristina de Almeida]
